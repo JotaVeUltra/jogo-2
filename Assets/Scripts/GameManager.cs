@@ -35,6 +35,9 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            Time.timeScale = 1f;
+            tempo=60;
+            pontos=0;
         }
         
         
